@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
 	printf("%p\n", p);
 	printf("%p\n", &p);
 	free(p);
+	printf("hello");
 	return 0;
 }
